@@ -13,6 +13,9 @@ def foo(bar: str) -> str:
 
     return bar
 
+def preprocess_data(data: str) -> str:
+    return data.strip().lower()
+
 
 if __name__ == "__main__":  # pragma: no cover
     foo("Hello world")
